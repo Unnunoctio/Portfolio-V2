@@ -1,43 +1,22 @@
----
-import ViewTransitions from 'astro/components/ViewTransitions.astro';
-
-interface Props {
-	title: string;
-}
-
-const { title } = Astro.props;
----
-
 <!doctype html>
-<html lang="es">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Portafolio con el propósito de mostrar tanto mis habilidades, como mis proyectos." />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-		<ViewTransitions />
+		<title>Astro Basics</title>
 	</head>
-	<body class="pt-4 sm:pt-6 md:pt-8 lg:pt-10 font-geist bg-bg-primary text-text-primary">
+	<body>
 		<slot />
 	</body>
 </html>
 
-<style is:global>
-	@font-face {
-		font-family: 'Geist';
-		src: url('/fonts/Geist-Regular.woff2') format('woff');
-		font-weight: normal;
-		font-style: normal;
-		font-display: swap;
-	}
-
-	@font-face {
-		font-family: 'Geist';
-		src: url('/fonts/Geist-Medium.woff2') format('woff');
-		font-weight: 500;
-		font-style: normal;
-		font-display: swap;
+<style>
+	html,
+	body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
 	}
 </style>
