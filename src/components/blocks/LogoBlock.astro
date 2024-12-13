@@ -4,7 +4,7 @@ import HomeIcon from "@icons/HomeIcon.astro";
 import { Image } from "astro:assets";
 
 interface Props {
-  isHome: boolean;
+  isHome?: boolean;
 }
 
 const { isHome = true } = Astro.props;
