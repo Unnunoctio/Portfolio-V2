@@ -1,0 +1,110 @@
+[
+    {
+        "id": "js",
+        "lang": "JavaScript",
+        "color": "#facc15",
+        "order": 1
+    },
+    {
+        "id": "ts",
+        "lang": "TypeScript",
+        "color": "#3b82f6",
+        "order": 2
+    },
+    {
+        "id": "py",
+        "lang": "Python",
+        "color": "#3b82f6",
+        "order": 3
+    },
+    {
+        "id": "html",
+        "lang": "HTML5",
+        "color": "#f97316",
+        "order": 4
+    },
+    {
+        "id": "css",
+        "lang": "CSS3",
+        "color": "#3b82f6",
+        "order": 5
+    },
+    {
+        "id": "tailwind",
+        "lang": "TailwindCSS",
+        "color": "#22d3ee",
+        "order": 6
+    },
+    {
+        "id": "node",
+        "lang": "NodeJS",
+        "color": "#22c55e",
+        "order": 7
+    },
+    {
+        "id": "bun",
+        "lang": "Bun",
+        "color": "#f0f0f0",
+        "order": 8
+    },
+    {
+        "id": "react",
+        "lang": "React",
+        "color": "#22d3ee",
+        "order": 9
+    },
+    {
+        "id": "svelte",
+        "lang": "Svelte",
+        "color": "#f97316",
+        "order": 10
+    },
+    {
+        "id": "alpine",
+        "lang": "AlpineJS",
+        "color": "#48a9c1",
+        "order": 11
+    },
+    {
+        "id": "next",
+        "lang": "NextJS",
+        "color": "#f0f0f0",
+        "order": 12
+    },
+    {
+        "id": "astro",
+        "lang": "Astro",
+        "color": "#f97316",
+        "order": 13
+    },
+    {
+        "id": "postgre",
+        "lang": "PostgreSQL",
+        "color": "#3b82f6",
+        "order": 14
+    },
+    {
+        "id": "mongo",
+        "lang": "MongoDB",
+        "color": "#4ade80",
+        "order": 15
+    },
+    {
+        "id": "api",
+        "lang": "APIs",
+        "color": "#8b5cf6",
+        "order": 16
+    },
+    {
+        "id": "graphql",
+        "lang": "GraphQL",
+        "color": "#ec4899",
+        "order": 17
+    },
+    {
+        "id": "npm",
+        "lang": "NPM",
+        "color": "#dc2626",
+        "order": 18
+    }
+]

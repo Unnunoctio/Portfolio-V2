@@ -1,7 +1,21 @@
 {
   "extends": "astro/tsconfigs/strict",
-  "exclude": ["src/components/TypeAndDelete.astro"],
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist"],
+
   "compilerOptions": {
-    "module": "ESNext",
+    "baseUrl": "./",
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+      "@pages/*": ["src/pages/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@sections/*": ["src/components/sections/*"],
+      "@containers/*": ["src/components/containers/*"],
+      "@blocks/*": ["src/components/blocks/*"],
+      "@components/*": ["src/components/components/*"],
+      "@skeletons/*": ["src/components/skeletons/*"],
+      "@icons/*": ["src/icons/*"],
+      "@types": ["src/types.d.ts"]
+    }
   }
 }

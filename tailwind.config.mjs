@@ -8,30 +8,26 @@ export default {
 			},
 			colors: {
 				bg: {
-					primary: '#1C1C1C',
+					primary: '#1c1c1c',
 					secondary: '#141212',
-					skills: '#272727',
-					btn: '#2D2D2DAA',
-					active: '#4E119D',
-					'active-light': '#8B5CF6',
-					component: '#211F1F',
-					modal: '#141212',
-					skeleton: '#525252'
-				},
-				hover: {
-					btn: '#3E3E3EAA',
-					text: '#EFEFEF',
-					component: '#3E3E3EAA',
-					outline: '#C0C0C088'
+					tertiary: '#272727',
+					hover: '#3e3e3eaa',
+					developing: "#4e119d",
+					'developing-light': "#8b5cf6",
+					skeleton: "#272727"
 				},
 				text: {
-					primary: '#F0F0F0',
-					secondary: '#A5A5A5',
-					ternary: '#525252',
-					active: '#805AD5'
+					primary: '#f0f0f0',
+					secondary: '#a5a5a5',
+					tertiary: '#805ad5',
+					hover: '#efefef',
+					'github-detail': '#525252'
 				},
-				divider: {
-					component: '#353535'
+				border: {
+					primary: '#353535'
+				},
+				outline: {
+					card: "#c0c0c088"
 				},
 				calendar: {
           0: '#2D2D2Dab',
@@ -42,21 +38,8 @@ export default {
           border: 'rgba(255, 255, 255, 0.05)'
         }
 			},
-			spacing: {
-				13: '3.25rem',
-				15: '3.75rem',
-				17: '4.25rem',
-				19: '4.75rem',
-				21: '5.25rem',
-				23: '5.75rem'
-			},
-			maxWidth: {
-				page: '1480px',
-				'skill-box': '520px' 
-			},
 			boxShadow: {
-				skills: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.1)',
-				btn: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.1)',
+				primary: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.1)',
 				card: '0px 16px 60px 4px rgba(128, 90, 213, 0.3)'
 			},
 			keyframes: {

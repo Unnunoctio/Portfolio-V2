@@ -1,5 +1,5 @@
 ---
-import ViewTransitions from 'astro/components/ViewTransitions.astro';
+import { ClientRouter } from 'astro:transitions';
 
 interface Props {
 	title: string;
@@ -17,27 +17,32 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
-		<ViewTransitions />
+		<ClientRouter />
 	</head>
-	<body class="pt-4 sm:pt-6 md:pt-8 lg:pt-10 font-geist bg-bg-primary text-text-primary">
+	<body class="flex flex-col items-center bg-bg-primary font-geist text-text-primary">
 		<slot />
 	</body>
 </html>
 
 <style is:global>
 	@font-face {
-		font-family: 'Geist';
-		src: url('/fonts/Geist-Regular.woff2') format('woff');
+		font-family: "Geist";
+		src: url(/fonts/Geist-Regular.woff2) format('woff2');
 		font-weight: normal;
 		font-style: normal;
 		font-display: swap;
 	}
-
 	@font-face {
-		font-family: 'Geist';
-		src: url('/fonts/Geist-Medium.woff2') format('woff');
+		font-family: "Geist";
+		src: url(/fonts/Geist-Medium.woff2) format('woff2');
 		font-weight: 500;
 		font-style: normal;
 		font-display: swap;
+	}
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
 	}
 </style>

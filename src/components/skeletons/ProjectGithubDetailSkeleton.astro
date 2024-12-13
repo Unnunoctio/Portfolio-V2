@@ -1,0 +1,16 @@
+---
+interface Props {
+  title: string;
+  className?: string;
+}
+
+const { title, className = "" } = Astro.props;
+---
+
+<div class={className}>
+  <h3 class="text-md text-text-github-detail font-bold">{title}</h3>
+  <div class="flex gap-2 items-center">
+    <slot />
+    <span class="w-full h-[28px] bg-bg-skeleton rounded-md animate-pulse" />
+  </div>
+</div>
