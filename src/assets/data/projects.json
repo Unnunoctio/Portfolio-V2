@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "order": 1,
+        "slug": "rincon-del-curao",
+        "title": "Rincón del Curao",
+        "isReady": false,
+        "description": "Website que recopila los precios de diversas cervezas, destilados y vinos vendidos en Chile. Los datos de los productos se obtienen desde Drinks API. Los precios se actualizan diariamente desde las 9 am hasta las 5 pm hora de Chile.",
+        "skills": ["ts", "tailwind", "node", "bun", "react", "next", "mongo", "graphql"],
+        "repository": "https://github.com/Unnunoctio/Rincon-del-Curao",
+        "website": "https://rincondelcurao.com",
+        "githubId": 675419361,
+        "icon": "/projects/rincon-del-curao/icon.svg",
+        "logo": "/projects/rincon-del-curao/logo.svg",
+        "preview": "/projects/rincon-del-curao/preview.webp"
+    },
+    {
+        "id": 2,
+        "order": 2,
+        "slug": "drinks-api",
+        "title": "Drinks API",
+        "isReady": true,
+        "description": "API REST que maneja diferentes tipos de bebidas alcohólicas, especificando cervezas, licores y vinos. Esta API permite listar y filtrar las diferentes bebidas.",
+        "skills": ["js", "bun", "mongo", "api"],
+        "repository": "https://github.com/Unnunoctio/Drinks-API",
+        "website": "https://drinks-api-web.vercel.app",
+        "githubId": 687208812,
+        "icon": "/projects/drinks-api/icon.svg",
+        "logo": "/projects/drinks-api/logo.svg",
+        "preview": "/projects/drinks-api/preview.webp"
+    },
+    {
+        "id": 3,
+        "order": 3,
+        "slug": "github-calendar-json",
+        "title": "Github Calendar JSON",
+        "isReady": true,
+        "description": "Paquete de NPM que transforma el calendario de contribuciones de Github a formato JSON.",
+        "skills": ["js", "node", "npm"],
+        "repository": "https://github.com/Unnunoctio/github-calendar-json",
+        "website": "https://www.npmjs.com/package/github-calendar-json",
+        "githubId": 671492867,
+        "icon": "/projects/github-calendar-json/icon.svg",
+        "logo": "/projects/github-calendar-json/logo.svg",
+        "preview": "/projects/github-calendar-json/preview.webp"
+    },
+    {
+        "id": 4,
+        "order": 4,
+        "slug": "portafolio",
+        "title": "Portafolio",
+        "isReady": true,
+        "description": "Portafolio con el propósito de mostrar tanto mis habilidades, como mis proyectos. La información es administrada con Astro Studio y el calendario de contribuciones mediante la API de Github.",
+        "skills": ["tailwind", "node", "alpine", "astro"],
+        "repository": "https://github.com/Unnunoctio/Portfolio",
+        "website": "https://unnunoctio-dev.vercel.app",
+        "githubId": 684913852,
+        "icon": "/projects/portfolio/icon.svg",
+        "logo": "/projects/portfolio/logo.svg",
+        "preview": "/projects/portfolio/preview.webp"
+    }
+]
