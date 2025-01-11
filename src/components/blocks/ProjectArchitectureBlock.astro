@@ -1,0 +1,23 @@
+---
+import InfoContainer from '@containers/InfoContainer.astro';
+import { Image } from 'astro:assets';
+
+
+interface Props {
+  title: string;
+  architecture: string;
+}
+
+const { title, architecture } = Astro.props;
+---
+
+<InfoContainer>
+  <section class="flex flex-col lg:flex-row gap-4">
+    <div class="w-full max-w-[350px]">
+      <h3 class="w-full text-3xl font-medium sm:max-w-[150px]">Arquitectura</h3>
+    </div>
+    <div>
+      <Image src={architecture} alt={`${title} architecture`} width={800} height={700} loading="lazy" class="object-cover" />
+    </div>
+  </section>
+</InfoContainer>

@@ -1,5 +1,6 @@
 ---
 import LogoBlock from "@blocks/LogoBlock.astro";
+import ProjectArchitectureBlock from "@blocks/ProjectArchitectureBlock.astro";
 import ProjectGithubBlock from "@blocks/ProjectGithubBlock.astro";
 import ProjectInfoBlock from "@blocks/ProjectInfoBlock.astro";
 import ProjectLinksBlock from "@blocks/ProjectLinksBlock.astro";
@@ -11,7 +12,7 @@ interface Props {
   project: Project;
 }
 
-const { title, isReady, description, skills, repository, website, githubId, logo } = Astro.props.project;
+const { title, isReady, description, skills, repository, website, githubId, logo, architecture } = Astro.props.project;
 ---
 
 <SectionContainer>
@@ -21,4 +22,5 @@ const { title, isReady, description, skills, repository, website, githubId, logo
   <ProjectGithubBlock server:defer githubId={githubId}>
     <ProjectGithubSkeleton slot="fallback" />
   </ProjectGithubBlock>
+  {architecture !== null && <ProjectArchitectureBlock title={title} architecture={architecture} /> }
 </SectionContainer>

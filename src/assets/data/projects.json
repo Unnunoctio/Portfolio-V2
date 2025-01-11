@@ -12,7 +12,8 @@
         "githubId": 675419361,
         "icon": "/projects/rincon-del-curao/icon.svg",
         "logo": "/projects/rincon-del-curao/logo.svg",
-        "preview": "/projects/rincon-del-curao/preview.webp"
+        "preview": "/projects/rincon-del-curao/preview.webp",
+        "architecture": "/projects/rincon-del-curao/architecture.png"
     },
     {
         "id": 2,
@@ -27,7 +28,8 @@
         "githubId": 687208812,
         "icon": "/projects/drinks-api/icon.svg",
         "logo": "/projects/drinks-api/logo.svg",
-        "preview": "/projects/drinks-api/preview.webp"
+        "preview": "/projects/drinks-api/preview.webp",
+        "architecture": null
     },
     {
         "id": 3,
@@ -42,7 +44,8 @@
         "githubId": 671492867,
         "icon": "/projects/github-calendar-json/icon.svg",
         "logo": "/projects/github-calendar-json/logo.svg",
-        "preview": "/projects/github-calendar-json/preview.webp"
+        "preview": "/projects/github-calendar-json/preview.webp",
+        "architecture": null
     },
     {
         "id": 4,
@@ -57,6 +60,7 @@
         "githubId": 684913852,
         "icon": "/projects/portfolio/icon.svg",
         "logo": "/projects/portfolio/logo.svg",
-        "preview": "/projects/portfolio/preview.webp"
+        "preview": "/projects/portfolio/preview.webp",
+        "architecture": null
     }
 ]

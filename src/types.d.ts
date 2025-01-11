@@ -29,4 +29,5 @@ export interface Project {
   icon: string | null;
   logo: string | null;
   preview: string | null;
+  architecture: string | null;
 }
